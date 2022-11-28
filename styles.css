@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #252532;
+}
+
+header {
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+}
+
+header h1 {
+    color: #252532;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score_board {
+    border: 2px solid white;
+    margin: 1rem;
+    padding: .5rem 4rem;
+    border-radius: 3px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.badge {
+    background: #ea5b58;
+    font-size: 14px;
+    padding: 2px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#user {
+    position: absolute;
+    top: 25px;
+    left: -30px;
+}
+
+#comp {
+    position: absolute;
+    top: 25px;
+    right: -30px;
+}
+
+.result p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.choices {
+    display: flex;
+}
+
+.choice {
+    font-size: 4rem;
+    margin: 3rem 10px 0;
+    border-bottom: 3px solid transparent;
+    padding-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    border-bottom: 3px solid white;
+    padding-bottom: 1rem;
+}
+
+.action-message {
+    padding-top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
